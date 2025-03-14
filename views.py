@@ -8,7 +8,7 @@ import time
 
 
 def process_custom_attributes():
-    apikey = "429683C4C977415CAAFCCE10F7D57E11"
+    apikey = "suakey"
     
     print("Obtendo atributos personalizados...")
     attributes = get_custom_attributes()
