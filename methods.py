@@ -62,7 +62,7 @@ def get_removed_jids(remote_jids, filename="jid.temp"):
 
 def change_status(apikey, removed_jids):
     """Envia requisições para alterar o status de cada JID removido."""
-    url = "http://192.168.0.253:8081/typebot/changeStatus/TYPEBOT"
+    url = "http://suaurl/typebot/changeStatus/TYPEBOT"
     headers = {"apikey": apikey, "Content-Type": "application/json"}
 
     for jid in removed_jids:
